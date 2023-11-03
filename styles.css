@@ -1,0 +1,144 @@
+/* General Rules
+================================================= */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 2rem;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+}
+
+main {
+    position: relative;
+    top: 70px;
+}
+
+h2 {
+    margin: 0;
+    padding: 10px;
+    background-color: black;
+}
+
+h4 {
+    margin: 0;
+    padding: 10px;
+    background-color: black;
+}
+
+/* Navigation
+================================================= */
+nav {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    height: 69px;
+    background-color: black;
+    z-index: 5;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    text-decoration: underline;
+    margin-right: 20px;
+}
+
+/* Section - Hero
+================================================= */
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    background-image: url(./images/mission-background.webp);
+    max-width: 1200px;
+    height: 700px;
+}
+
+/* Section - Tea of the Month
+================================================= */
+.month-tea {
+    margin: 50px auto;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.month-tea-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.month-tea-gallery img {
+    width: 300px;
+    height: 200px;
+    margin: 10px 10px 0;
+}
+
+/* Section - Locations
+================================================= */
+.locations {
+    background-image: url(./images/locations-background.webp);
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.locations h2 {
+    background-color: transparent;
+}
+
+.addresses {
+    display: flex;
+    justify-content: center;
+}
+
+.address {
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+    height: 300px;
+    margin: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* Section - The Tea Cozy
+================================================= */
+.contact-info {
+    margin: 0 auto;
+    height: 200px;
+}
+
+/* Footer
+================================================= */
+footer {
+    position: relative;
+    top: 70px;
+    text-align: left;
+    margin: 0 20px 100px;
+}
